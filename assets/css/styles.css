@@ -1,0 +1,38 @@
+:root {
+    --white-theme: white;
+    --purple-theme: purple;
+
+}
+body {
+    background-color: var(--purple-theme);
+}
+header {
+
+
+}
+h1 {
+
+
+}
+
+h2 {
+
+
+}
+
+h3 {
+
+
+}
+
+p {
+
+}
+
+.portfolio {
+
+}
+
+.content {
+    
+}
