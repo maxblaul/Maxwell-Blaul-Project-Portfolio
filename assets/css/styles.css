@@ -1,17 +1,18 @@
-:root {
-    --white-theme: white;
-    --purple-theme: purple;
-
-}
 body {
-    background-color: var(--purple-theme);
+    background-color: rgb(75, 56, 76);
 }
 header {
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
 
 
 }
 h1 {
-
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  color: royalblue;
+  text-align: center;
 
 }
 
@@ -35,4 +36,11 @@ p {
 
 .content {
     
+}
+.card {
+    flex: 1 0 0;
+    padding: 20px;
+    text-align: center;
+    border-style: groove;
+    border-width: 2px;
 }
