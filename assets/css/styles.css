@@ -1,21 +1,51 @@
+
 body {
     background-color: rgb(75, 56, 76);
+    font-family: 'Courier New', Courier, monospace;
 }
-header {
+.header {
     color: grey;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    padding: 30px;
 
 
 }
 h1 {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 50px;
   color: royalblue;
   text-align: center;
 
 }
+.header nav {
+    padding-top: 30px;
+    margin-right: 20px;
+    float: right;
 
+    
+}
+.header nav ul {
+    list-style-type: disc;
+}
+.header na li {
+    display: inline-block ;
+    margin-left: 35px;
+}
+.bass-man {
+    height: 1600px;
+    width: 96%;
+    background-image: url(../images/TotemFrogsMaxRat-740067.JPG) ;
+    background-size: cover;
+    background-position: center;
+    border: solid;
+    border-color: chartreuse;
+    border-style: dotted;
+    margin: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
 h2 {
 
 
@@ -44,3 +74,4 @@ p {
     border-style: groove;
     border-width: 2px;
 }
+.
