@@ -21,7 +21,8 @@ h1 {
 .header nav {
     padding-top: 30px;
     margin-right: 20px;
-    float: right;
+    float: center;
+    justify-content: center;
 
     
 }
@@ -73,5 +74,8 @@ p {
     text-align: center;
     border-style: groove;
     border-width: 2px;
+    border-color: chartreuse;
+    flex-wrap: wrap;
+    display: flex;
 }
 .
