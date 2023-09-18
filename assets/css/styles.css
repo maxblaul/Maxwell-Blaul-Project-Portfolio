@@ -48,7 +48,15 @@ header nav li {
 
 }
 h2 {
-
+    font-size: 30px;
+    color: magenta;
+    font-weight: bold;
+}
+p {
+    color: whitesmoke;
+    font-size: 15px;
+}
+  
 
 }
 
