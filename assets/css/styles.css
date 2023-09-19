@@ -101,6 +101,8 @@ section .content {
     height: 50%;
     display: flex;
     flex-wrap: wrap;
+    background-image: 100%;
+
 }
 #small-cards {
     background-color: brown;
@@ -108,11 +110,44 @@ section .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-image: 100%;
 
 }
 /* justify-content is main axis based on flex direction
 align-items is the cross axis */
-.project {
+/* .project {
+    background-color: purple;
+    width: 45%;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.recent-work {
+    background-color: purple;
+    width: 45%;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.bass-guitar {
+    background-color: purple;
+    width: 45%;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.electric-guitar {
+    background-color: purple;
+    width: 45%;
+    border: 2px solid aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tie-Dye-Art {
     background-color: purple;
     width: 45%;
     border: 2px solid aqua;
