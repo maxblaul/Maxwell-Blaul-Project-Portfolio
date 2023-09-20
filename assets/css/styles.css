@@ -9,14 +9,11 @@ header {
     flex-wrap: wrap;
     text-align: center;
     padding: 30px;
-
-
 }
 h1 {
   font-size: 55px;
   color: royalblue;
   text-align: center;
-
 }
 nav {
   font-size: 30px;
@@ -27,8 +24,6 @@ header nav {
     margin-right: 20px;
     float: center;
     justify-content: center;
-
-    
 }
 header nav ul {
     list-style-type: disc;
@@ -36,20 +31,6 @@ header nav ul {
 header nav li {
     display: inline-block ;
     margin-left: 35px;
-}
-.bass-man {
-    height: 1600px;
-    width: 96%;
-    background-image: url(../images/TotemFrogsMaxRat-740067.JPG) ;
-    background-size: cover;
-    background-position: center;
-    border: solid;
-    border-color: chartreuse;
-    border-style: dotted;
-    margin: 25px;
-    display: flex;
-    flex-wrap: wrap;
-
 }
 h2 {
     font-size: 40px;
@@ -60,6 +41,35 @@ p {
     color: whitesmoke;
     font-size: 15px;
     line-height: 25px;
+}
+h3 {
+    color: crimson;
+    font-size: 25px;
+}
+h4 {
+    color: orange;
+    font-size: 25px;
+}
+h5 {
+    color: yellow;
+    font-size: 25px;
+}
+h6 {
+    color: chartreuse;
+    font-size: 25px;
+}
+footer {
+    text-align: center;
+}
+h7 {
+   color: greenyellow;
+   font-size: 40px;
+
+}
+article {
+    color: gold;
+    font-size: 25px;
+    text-align: center;
 }
 .project img {
 background-color: pink;
@@ -72,14 +82,19 @@ section {
     padding: 10px;
     min-height: 500px;
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
-section h1 {
+/* section h1 {
     background-color: red;
     width: 20%;
-}
+    display: flex;
+    flex-wrap: wrap;
+} */
 section .content {
     background-color: green;
     width: 80%;
+    justify-content: space-around;
 }
 #big-card {
     background-color: yellow;
@@ -95,10 +110,12 @@ section .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: 100%;
+    /* background-image: 100%; */
     
 
 }
+
+
 /* justify-content is main axis based on flex direction
 align-items is the cross axis */
 /* .project {
@@ -117,27 +134,14 @@ align-items is the cross axis */
     justify-content: center;
     align-items: center; 
 }
-/* .bass-guitar {
-    background-color: purple;
-    width: 45%;
-    border: 2px solid aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Default style for desktop devices */
+
+/* Styles for tables */
+@media only screen and (max-width: 768px) and (max-width: 1023px) {
+    /* CSS styles for tables */
+
 }
-.electric-guitar {
-    background-color: purple;
-    width: 45%;
-    border: 2px solid aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+    /* CSS styles for mobile devices */
 }
-.Tie-Dye-Art {
-    background-color: purple;
-    width: 45%;
-    border: 2px solid aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
